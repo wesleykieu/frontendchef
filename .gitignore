@@ -1,0 +1,12 @@
+# Node.js frontend
+frontend/node_modules/
+
+# Python backend
+CHEF_backend/venv/
+
+# Local Environment Files
+frontend/.env.local
+CHEF_backend/firebase_key.json
+
+# Mac system files
+.DS_Store
