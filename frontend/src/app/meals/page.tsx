@@ -56,7 +56,7 @@ export default function MealsPage() {
   return (
     <div className="flex flex-col min-h-screen bg-gray-50 pb-20">
       {/* Top Profile Section */}
-      <div className="flex w-full p-6 bg-gradient-to-r from-blue-500 to-purple-600 text-white">
+      <div className="flex w-full p-6 -flex w-full p-6 bg-gradient-to-r from-orange-200 via-orange-300 to-orange-400 text-gray-800-to-r from-orange-400 to-orange-600 text-white">
         {/* Left side: Profile Pic + Info */}
         <div className="flex flex-col items-center w-1/3 space-y-4">
           <img
@@ -139,7 +139,7 @@ export default function MealsPage() {
       <div className="fixed bottom-0 left-0 w-full bg-gray-800 text-white flex justify-around items-center h-16 shadow-inner z-50">
         <button onClick={() => router.push('/dashboard')} className="hover:text-blue-400">Home</button>
         <button onClick={() => router.push('/meals')} className="hover:text-blue-400">Meals</button>
-        <button onClick={() => router.push('/grocery-list')} className="hover:text-blue-400">Grocery List</button>
+        <button onClick={() => router.push('/grocerylist')} className="hover:text-blue-400">Grocery List</button>
         <button onClick={() => router.push('/profile')} className="hover:text-blue-400">Profile</button>
       </div>
     </div>
